@@ -94,4 +94,4 @@ while length > 0 and health > 0 and respect > 0 and weight > 0 and respect < 100
 if (respect >= 100):
     print("Вы прошли игру")
 if (health <= 0 or weight <= 0 or respect <= 0 or length <= 0):
-    print("Вы погибли")
+    print("Вы умерли")
